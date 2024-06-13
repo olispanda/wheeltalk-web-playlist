@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c5c5c5;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff4000;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.header-logo img {
+    max-width: 150px;
+    height: auto; 
+    margin: 10px;
+}
+
+.bubble-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: transparent; /* Sicherstellen, dass es transparent ist */
+    pointer-events: none;
+}
+
+.bubble-footer img {
+    width: 200px; 
+    height: auto; 
+    background-color: transparent;
+    display: block;
+    pointer-events: none;
+}
+
+.media-player {
+    margin: 15px;
+}
+
+.container {
+    margin: 15px
+}
+.footer {
+    margin: 15px;
+}
+
+.spotify:hover {
+    text-decoration: underline;
+}
+.instagram:hover {
+    text-decoration: underline;
+}
+
+.links a {
+    display: block; /* Links untereinander anordnen */
+    margin-bottom: 10px; /* Optional: Abstand zwischen den Links */
+}
